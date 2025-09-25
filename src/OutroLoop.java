@@ -11,7 +11,7 @@ public class OutroLoop {
             System.out.println("Avalie a peca ou digite -1 para encerrar");
             nota = leitura.nextDouble();
 
-            if (nota != -1) {
+            if (nota != -1) { //se a nota NÂO for -1...
                 media += nota; //recebe o que ele ja tinha, + nota
                 totalDeNotas++;
             }
